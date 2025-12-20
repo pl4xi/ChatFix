@@ -11,7 +11,7 @@ local bottomBorder = appLayout:WaitForChild("bottomBorder")
 
 getgenv().ChatFix = {}
 
-local queue_on_teleport = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
+local queueonteleport = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
 
 local internalData = {
     Visible = InputBar.Visible,
