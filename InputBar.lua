@@ -1,5 +1,5 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
-task.wait(1)
+task.wait(0.3)
 
 local Players = game:GetService("Players")
 
